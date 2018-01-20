@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>meganlarson</title>
+		<title>hire me</title>
 		<link rel= "stylesheet" type = "text/css" href= "style.css"/>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
 		rel="stylesheet" 
@@ -26,7 +26,7 @@
 		}
 
 		/* Creates image effect */
-		.bgimg-1, .bgimg-2 {
+		.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
 			background-attachment: fixed;
    		 	background-position: center;
    			background-repeat: no-repeat;
@@ -34,19 +34,25 @@
 		}
 		/* First Image: Name */
 		.bgimg-1 {
-  			background-image: url("snow.jpg");
+  			background-image: url("range.jpg");
   			min-height: 100%;
 		}
 
 		/* Second Image: About Me */
 		.bgimg-2 {
-    		background-image: url("hikingggg.jpg");
+    		background-image: url("oceanside.jpg");
     		min-height: 400px;
 		}
 
-		/* Third image (Contact) */
+		/* Third Image: Skills*/
 		.bgimg-3 {
-   			background-image: url("hikingggg.jpg");
+   			background-image: url("river.jpg");
+   			min-height: 400px;
+		}
+
+		/* Fourth Image: Contact */
+		.bgimg-4 {
+   			background-image: url("snow.jpg");
    			min-height: 400px;
 		}
 		
@@ -64,6 +70,7 @@
     			<a href="#home" class="w3-bar-item w3-button">HOME</a>
     			<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT ME</a>
     			<a href="#education" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> EDUCATION AND EXPERIENCE</a>
+    			<a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> SKILLS AND PROJECTS</a>
    				 <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
    				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       				<i class="fa fa-search"></i>
@@ -82,7 +89,10 @@
 	<div class="w3-content w3-container w3-padding-64" id="about">
   		<h3 class="w3-center">ABOUT ME</h3>
  			<p class="w3-center"><em>work in progress</em></p>
- 			 <p> hello! welcome to my website. I am from seattle... </p>
+ 			 <p> Hello! Welcome to my website. I'm from Seattle, Washington, but I currently study computer science at 
+ 			 Northeastern University in Boston. At my university, I'm a member of Club Running and volunteer as secretary for
+ 			 DREAM, a mentorship club that hosts programming for kids in surrounding neighborhoods. When I have freetime, I like 
+ 			 traveling to new places, hiking the Cascades, and cooking fancy things for my friends. Scroll to learn more! </p>
     </div>
 
 	<!-- Second Parallax Image with Portfolio Text -->
@@ -93,7 +103,7 @@
 	</div>
 
 	<!-- Container (About Section) -->
-	<div class="w3-content w3-container w3-padding-64" id="education">
+	<div class="w3-content w3-container w3-padding-64" id="projects">
   		<h3 class="w3-center">Education</h3>
  			<p class="w3-center"><em>work in progress</em></p>
  			 <h3> Northeastern University, Boston MA </h3>
@@ -104,8 +114,69 @@
  			 <p> International Baccalaureate Diploma, 2016</p>
  		<h3 class="w3-center">Experience</h3>
  			<p class="w3-center"><em>work in progress</em></p>
- 			 <p> i have done nothing </p>
+ 			<h3> Tutor for Fundamentals of Computer Science II</h3>
+ 			<p> Northeastern University, September 2017 - 2018 </p>
+			<p> This class teaches the fundamentals of Java and provides a basis for learning object oriented design. My resposibilities
+			include grading, hosting office hours, and helping out at labs.This job has provided me with ample experience with Java and
+			provided me with the skills to efficiently debug. </p>
     </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+	<div class="bgimg-3 w3-display-container w3-opacity-min">
+ 		<div class="w3-display-middle">
+   			<span class="w3-xxlarge w3-text-white w3-wide">SKILLS AND PROJECTS</span>
+ 		</div>
+	</div>
+
+	<!-- Container (About Section) -->
+	<div class="w3-content w3-container w3-padding-64" id="education">
+  		<h3 class="w3-center">Skills</h3>
+ 			<p class="w3-center"><em>work in progress</em></p>
+ 			 
+ 		<h3 class="w3-center">Projects</h3>
+ 			<p class="w3-center"><em>work in progress</em></p>
+
+    </div>
+
+
+
+    <!-- Third Parallax Image with Portfolio Text -->
+	<div class="bgimg-4 w3-display-container w3-opacity-min">
+  		<div class="w3-display-middle">
+     		<span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  		</div>
+	</div>
+	<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contact Information</h3>
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+    	<img src="prof.jpg" alt="Smiley face" width="250" height="250">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Boston, MA<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 425-785-0210<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: larson.m@husky.neu.edu.com<br>
+      </div>
+      <p> Don't be shy! </p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
 
 
 			
